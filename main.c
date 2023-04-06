@@ -7,7 +7,7 @@ int main() {
     double a, b, c, roots[2];
     int numRoots;
 
-    printf("Zadejte koeficienty a, b, c\npro kvadratickou rovnici ax^2 + bx + c = 0: ");
+    printf("Zadejte koeficienty a, b, c\npro kvadratickou rovnici ax^2 + bx + c = 0:\n");
     scanf("%lf %lf %lf", &a, &b, &c);
 
     numRoots = solveQuadratic(a, b, c, roots);
